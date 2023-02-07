@@ -77,4 +77,3 @@ class ModelProfile extends Model
 		}*/	
 
 }
-?>
