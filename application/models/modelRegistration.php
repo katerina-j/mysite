@@ -46,4 +46,3 @@ class ModelRegistration extends Model
 }
 		
 	
-?>
