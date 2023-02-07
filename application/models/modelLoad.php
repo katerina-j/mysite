@@ -35,4 +35,3 @@ class ModelLoad extends Model
     }
 
 }
-?>
