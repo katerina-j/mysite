@@ -48,13 +48,10 @@ class Route
 		} else {
 			Route::ErrorPage404();
 		}
-	
 	}
 
 	function ErrorPage404()
 	{
         
-    }
-    
+        }
 }
-?>
