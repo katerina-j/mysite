@@ -14,14 +14,15 @@ if (file_get_contents('username.txt')!='') {
 	foreach($data as $row) {
 		echo '<tr><td>'.$row['title'].'</td><td>'.$row['text'].'</td><td>'.$row['data'].'</td></tr>';
 	}
-	include_once('application/views/list_post_view.php');	
+	include_once('application/views/listPostView.php');	
 ?>
 </table>
 </p>
 
 <?php
-include_once('application/views/exit_view.php');
+include_once('application/views/exitView.php');
 } else {
 	echo 'войдите в аккаунт!';
 }
 
+?>
