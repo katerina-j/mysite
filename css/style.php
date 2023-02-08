@@ -46,7 +46,6 @@ body{
 	font-family:Arial;
 	position: relative;
 	right:12px;
-	
 }
 
 .category-bar{
