@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 class DB
 {
@@ -9,9 +9,5 @@ class DB
   const DB_NAME = 'mysite';
   const CHARSET = 'utf8';
   const DB_PREFIX = '';
-	
-  static private $db;
-  
- 
+  static private $db; 
 } 
-?>
