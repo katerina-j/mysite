@@ -12,6 +12,6 @@ class Controller {
 	// действие (action), вызываемое по умолчанию
 	function actionIndex()
 	{
-		// todo	
+	    // todo	
 	}
 }
