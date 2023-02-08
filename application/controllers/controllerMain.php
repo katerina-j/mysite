@@ -1,5 +1,6 @@
 <?php
 
+//Главная страница
 class ControllerMain extends Controller
 {
 	function actionIndex()
