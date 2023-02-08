@@ -90,5 +90,3 @@
 		return $this->users;
 	}
 }
-
-?>
