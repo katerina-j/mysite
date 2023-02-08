@@ -1,4 +1,4 @@
-﻿<div class="form">  
+<div class="form">  
 <h1>Login</h1>
     <form method="post" action="" name="signin-form">
         <div class="form-element">
