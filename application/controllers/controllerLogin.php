@@ -18,10 +18,4 @@ class ControllerLogin extends Controller
 	    }
 	}
 }
-
-
-	
-
-			
-			
 		
