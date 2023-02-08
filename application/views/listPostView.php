@@ -1,4 +1,4 @@
-﻿<div class="form">  
+<div class="form">  
 <h2>Оставить новый пост</h2>
     <form method="post" action="" name="signin-form">
         <div class="form-element">
