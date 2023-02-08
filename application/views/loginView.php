@@ -27,11 +27,12 @@ if ($username!='') {
 </div>
 	
 <?php
-include_once ('application/views/loadView.php');
-include_once ('application/views/exit_view.php');?> 
+include('application/views/loadView.php');
+include('application/views/exitView.php');
+?> 
 
 <a href='/profile'>Изменить</a> 
 <?php
 }
 	
-
+?>
