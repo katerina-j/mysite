@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class Route
 /*
 Класс-маршрутизатор для определения запрашиваемой страницы.
@@ -29,32 +29,30 @@ class Route
 		$modelFile = strtolower($modelName).'.php';
 		$modelPath = "application/models/".$modelFile;
 		if(file_exists($modelPath)) {
-			include "application/models/".$modelFile;
+		    include "application/models/".$modelFile;
 		}
 		// подцепляем файл с классом контроллера
 		$controllerFile = strtolower($controllerName).'.php';
 		$controllerPath = "application/controllers/".$controllerFile;
 		if(file_exists($controllerPath)){
-			include "application/controllers/".$controllerFile;
+		    include "application/controllers/".$controllerFile;
 		} else {
-			Route::ErrorPage404();
+		    Route::ErrorPage404();
 		}
 		// создаем контроллер
 		$controller = new $controllerName;
 		$action = $actionName;
 		if(method_exists($controller, $action)) {
-			// вызываем действие контроллера
+		    // вызываем действие контроллера
 			$controller->$action();
 		} else {
-			Route::ErrorPage404();
+		    Route::ErrorPage404();
 		}
-	
 	}
 
 	function ErrorPage404()
 	{
         
-    }
+        }
     
 }
-?>
