@@ -1,4 +1,4 @@
-﻿<div class="form">  
+<div class="form">  
 <h1>Registration</h1>  
     <form method="post" accept-charset="utf-8">  
         <input type="text" name="name" placeholder="Please Enter Name" required />
