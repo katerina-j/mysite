@@ -1,9 +1,9 @@
-html>
+<html>
     <head>
-	    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Site</title>
-		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<script src="jquery-3.2.1.min.js"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Site</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script src="jquery-3.2.1.min.js"></script>
         <script src="jquery.maskedinput.min.js"></script>
         <script>
             $(document).ready(function() {
@@ -20,7 +20,7 @@ html>
 	?>
 	<div class="layout">
 		<div class="fixed-width"> 
-			<?php include 'application/views/'.$content_view; ?>
+		    <?php include 'application/views/'.$content_view; ?>
 	    </div>
 	</div> 
 	<?php include 'footer.php'; ?>
