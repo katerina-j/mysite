@@ -19,4 +19,3 @@ class ControllerList extends Controller
 		}
 	}	
 }
-
