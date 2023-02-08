@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 class ModelLoad extends Model
 {
@@ -35,4 +35,3 @@ class ModelLoad extends Model
     }
 
 }
-?>
