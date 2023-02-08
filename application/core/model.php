@@ -1,13 +1,6 @@
 <?php
 class Model
 {
-    //const DB_HOST = 'localhost';
-    //const DB_USER = 'root';
-    //const DB_PASSWORD = '';
-    //const DB_NAME = 'mysite';
-    //const CHARSET = 'utf8';
-    //const DB_PREFIX = '';
-    //protected $options=array();
     public $db;
     //protected static $instance = null;
  
