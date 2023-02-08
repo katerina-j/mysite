@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $db = new Model;
 $username=file_get_contents('username.txt');
 $data=$db->getPosts('users',$username);
