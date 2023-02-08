@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (file_get_contents('username.txt')!='') {
 ?>	
 	
