@@ -14,4 +14,3 @@ class ControllerLoad extends Controller
         $this->view->generate('loadView.php', 'templateView.php', $data);
     }	
 } 
-
