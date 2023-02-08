@@ -7,4 +7,3 @@ class ControllerContacts extends Controller
 		$this->view->generate('contactsView.php', 'templateView.php');
 	}
 }
-?>
