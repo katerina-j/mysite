@@ -37,13 +37,6 @@
 		if (isset($_POST['myActionName'])) {
 		    $this->setDocuments('');
 		}
-	
-	
-	
-	    /*if (isset($_POST['myActionName'])) {
-		    file_put_contents('username.txt','');
-		    //unset($_POST['myActionName']);
-	    }*/
 	}
 
 	public function setName($name)
